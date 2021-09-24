@@ -1,63 +1,69 @@
 
-/*Style All pages*/
 body{
-  background-color: lightblue;
-  /* set width to 80% */
-  /* set margin-left to auto */
-  /* set margin-right to auto */
-}
+    background-color: lightblue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ .caption header{ 
+    font-family:Calibri, Arial,sans-serif;
+    float:left;
+    text-align: left;
+    margin-right: 20%;
+  }
+  img {
+    float: left; 
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 20%;
+   }
 
-header{
-  font-family:Calibri, Arial,sans-serif;
-}
-
-
-/*create caption class */
-  /* inside caption class set float property to left */
-  /* inside caption class set text-align property to center */
-  /* inside caption class set margin-right property to 20% */
-
-nav{
-  font-family:Calibri, Arial,sans-serif;
-  font-size: 1.25em;
-  font-weight:bold;
-  text-align:center;
-  /* set margin-top to 20px */
-  /* set margin-bottom to 30px */
-  /* set padding to 10px */
-  /* set border-top to 5px solid #FFFFFF */
-  /* set border-bottom to 5px solid #FFFFFF */
-}
-
-
-#main{
-  display: block;
-  font-family:Calibri, Arial,sans-serif;
-  font-size:1em;
-  /* set margin-top to 20px  */
-  /* set margin-bottom to 10px  */
-  /* set padding to 20px  */
-  /* set border-radius to 10px  */
-  /* set background-color:#FFFFFF; */
-  /* set box-shadow:12px 12px 12px #404040; */
-}
-
-/* Style a footer  */
-  /*set font-size to .70em  */
-  /*set text-align to center */
-  /*set margin-top to 150px */
-
-
-
-
-/*Style Classics page */
-
-  /*create column class */
-  /*set float property to left  */
-  /*set padding-left property to 10%  */
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+ nav{
+    font-family:Calibri, Arial,sans-serif;
+    font-size: 1.25em;
+    font-weight:bold;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-top: 5px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+  }
+  
+  
+  main{
+    display: block;
+    font-family:Calibri, Arial,sans-serif;
+    font-size:1em;
+    margin-top:20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 12px 12px 12px #404040;
+  }
+  
+  footer{
+   font-size: .70em; 
+   text-align: center;
+  margin-top: 150px;
+  }
+  
+    .class{
+    float: left;
+    padding-left: 10%;
+  }
+    
+  #classics .class{
+  float: left;
+  padding-left: 10%;
+  }
+  
+  
+  row::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+  
